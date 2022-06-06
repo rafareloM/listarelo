@@ -1,0 +1,58 @@
+@media only screen and (max-width: 425px) {
+  #presentation h1 {
+    font-size: 4rem;
+    padding-left: 1rem;
+  }
+
+  #presentation .cta {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #watchlist .m-card {
+    flex-direction: row;
+    height: 400px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+  }
+  #watchlist .m-wrapper .m-card__info {
+    height: 100%;
+  }
+  #watchlist .m-wrapper .m-card__img {
+    height: 100%;
+  }
+  #watchlist .m-card:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .menu__logo h2 {
+    display: none;
+    padding-left: 1rem;
+  }
+
+  .menu__search input {
+    padding: 0.5rem 10% 0.5rem 1rem;
+  }
+
+  .menu__item {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 716px) {
+  .menu {
+    justify-content: space-around;
+  }
+
+  .menu__search {
+    padding: 0;
+  }
+
+  .menu__item {
+    display: none;
+  }
+}
